@@ -1,0 +1,51 @@
+@import './variables';
+@import './mixins';
+
+li {
+  list-style: none;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  color: $clr-white;
+  font-family: 'Karla';
+
+  @include mq(xl) {
+    font-size: 17px;
+    line-height: 28px;
+    text-align: justify;
+  }
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 600;
+  color: $clr-mustard;
+
+  @include mq(xl) {
+    font-size: 25px;
+  }
+
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 600;
+  color: $clr-mustard;
+}
+
+h3 {
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 600;
+  color: $clr-mustard;
+
+  @include mq(md) {
+    font-size: 30px;
+    line-height: 36px;
+  }
+}
