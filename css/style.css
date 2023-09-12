@@ -227,7 +227,8 @@ section.popular {
 /*popular-css-end*/
 /*accommodation-css-start*/
 section.accommodation {
-  padding: 50px 0 0 0;
+  padding: 50px 0 10px 0;
+  background: #fff;
 }
 section.accommodation .accommodation__picture img {
   max-width: 250px;
@@ -235,7 +236,7 @@ section.accommodation .accommodation__picture img {
   object-fit: cover;
 }
 section.accommodation p.accomodationtext {
-  color: #fff;
+  color: #0d1e1e;
 }
 section.accommodation .accommodation__btn {
   display: flex;
@@ -250,7 +251,7 @@ section.accommodation .accommodation__btn a {
   border: 2px solid #cd8c2f;
   padding: 15px 30px;
   text-transform: capitalize;
-  color: #fff;
+  color: #0d1e1e;
   transition: all 0.3s ease-in-out;
 }
 section.accommodation .accommodation__btn a:hover {
@@ -262,6 +263,33 @@ section.accommodation .accommodation__btn a:hover {
 
 .row.accommodation {
   margin-bottom: 30px;
+}
+
+.banner__picture.accommodation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0 0 0;
+}
+.banner__picture.accommodation img {
+  max-width: 500px;
+}
+
+.accommodation__text h4 {
+  color: #cd8c2f;
+  font-size: 27px;
+}
+.accommodation__text p {
+  color: #0d1e1e;
+}
+
+p.accommodation__unique {
+  color: #fff;
+}
+
+section.accommodation__banner {
+  padding: 50px 0;
 }
 
 /*accommodation-css-end*/
@@ -295,31 +323,14 @@ section.reviews .reviews-section p {
 }
 
 /*review-css-end*/
-/*accomodation-css-start*/
-.banner__picture.accommodation {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 50px 0 0 0;
-}
-.banner__picture.accommodation img {
-  max-width: 500px;
-}
-
-.accommodation__text h4 {
-  color: #cd8c2f;
-  font-size: 27px;
-}
-
-/*accomodation-css-end*/
 /*contact-css-start*/
 section.contactbanner {
-  padding: 150px 0 0 0;
+  padding: 150px 0 50px 0;
 }
 
 .contact__section {
   padding: 50px 0 0 0;
+  background: #fff;
 }
 
 .contact__banner {
@@ -341,12 +352,13 @@ section.contactbanner {
   color: #cd8c2f;
 }
 .contact__para a {
-  color: #fff;
+  color: #0d1e1e;
   font-size: 20px;
 }
 .contact__para p {
   line-height: 28px;
   font-family: "Barlow";
+  color: #0d1e1e;
 }
 
 .contact__cookies {
@@ -355,11 +367,13 @@ section.contactbanner {
 .contact__cookies p {
   line-height: 28px;
   font-family: "Barlow";
+  color: #0d1e1e;
 }
 
 .contact__text p {
   font-size: 18px;
   line-height: 28px;
+  color: #0d1e1e;
 }
 
 /*contact-css-end*/
@@ -369,10 +383,12 @@ p.privacy__infos {
   line-height: 27px;
   font-family: "Barlow";
   font-weight: 400;
+  color: #0d1e1e;
 }
 
 .privacy__section {
   padding: 50px 0;
+  background: #fff;
 }
 
 .third__party h3 {
@@ -380,7 +396,7 @@ p.privacy__infos {
 }
 .third__party li {
   font-family: "Karla";
-  color: #fff;
+  color: #0d1e1e;
   margin: 10px 0;
   position: relative;
 }
@@ -392,7 +408,7 @@ p.privacy__infos {
   bottom: 9px;
   left: -12px;
   border-radius: 6px;
-  background: #fff;
+  background: #0d1e1e;
 }
 
 .Consentement__part h3 {

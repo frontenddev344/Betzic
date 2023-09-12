@@ -206,7 +206,8 @@ section.popular {
 
 /*accommodation-css-start*/
 section.accommodation {
-    padding: 50px 0 0 0;
+    padding: 50px 0 10px 0;
+    background: $clr-white;
 
     .accommodation__picture {
         img {
@@ -217,7 +218,7 @@ section.accommodation {
     }
 
     p.accomodationtext {
-        color: $clr-white;
+        color: $clr-darkgreen;
     }
 
     .accommodation__btn {
@@ -234,7 +235,7 @@ section.accommodation {
         border: 2px solid $clr-mustard;
         padding: 15px 30px;
         text-transform: capitalize;
-        color: $clr-white;
+        color: $clr-darkgreen;
         transition: all 0.3s ease-in-out;
 
         &:hover {
@@ -248,6 +249,39 @@ section.accommodation {
 
 .row.accommodation {
     margin-bottom: 30px;
+}
+
+.banner__picture.accommodation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0 0 0;
+
+    img {
+        max-width: 500px;
+    }
+}
+
+.accommodation {
+    &__text {
+        h4 {
+            color: $clr-mustard;
+            font-size: 27px;
+        }
+
+        p {
+            color: $clr-darkgreen;
+        }
+    }
+}
+
+p.accommodation__unique {
+    color: $clr-white;
+}
+
+section.accommodation__banner {
+    padding: 50px 0;
 }
 
 /*accommodation-css-end*/
@@ -288,37 +322,16 @@ section.reviews {
 
 /*review-css-end*/
 
-/*accomodation-css-start*/
-.banner__picture.accommodation {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 50px 0 0 0;
-
-    img {
-        max-width: 500px;
-    }
-}
-
-.accommodation {
-    &__text {
-        h4 {
-            color: $clr-mustard;
-            font-size: 27px;
-        }
-    }
-}
-
-/*accomodation-css-end*/
 
 /*contact-css-start*/
 section.contactbanner {
-    padding: 150px 0 0 0;
+    padding: 150px 0 50px 0;
+
 }
 
 .contact__section {
     padding: 50px 0 0 0;
+    background: $clr-white;
 }
 
 .contact__banner {
@@ -344,7 +357,7 @@ section.contactbanner {
     }
 
     a {
-        color: $clr-white;
+        color: $clr-darkgreen;
         font-size: 20px;
 
     }
@@ -352,6 +365,7 @@ section.contactbanner {
     p {
         line-height: 28px;
         font-family: 'Barlow';
+        color: $clr-darkgreen;
     }
 }
 
@@ -361,6 +375,7 @@ section.contactbanner {
     p {
         line-height: 28px;
         font-family: 'Barlow';
+        color: $clr-darkgreen;
     }
 }
 
@@ -368,6 +383,7 @@ section.contactbanner {
     p {
         font-size: 18px;
         line-height: 28px;
+        color: $clr-darkgreen;
     }
 }
 
@@ -379,10 +395,12 @@ p.privacy__infos {
     line-height: 27px;
     font-family: 'Barlow';
     font-weight: 400;
+    color: $clr-darkgreen;
 }
 
 .privacy__section {
     padding: 50px 0;
+    background: $clr-white;
 }
 
 .third__party {
@@ -392,7 +410,7 @@ p.privacy__infos {
 
     li {
         font-family: 'Karla';
-        color: $clr-white;
+        color: $clr-darkgreen;
         margin: 10px 0;
         position: relative;
 
@@ -404,7 +422,7 @@ p.privacy__infos {
             bottom: 9px;
             left: -12px;
             border-radius: 6px;
-            background: $clr-white;
+            background: $clr-darkgreen;
         }
     }
 }
