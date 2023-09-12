@@ -350,7 +350,7 @@ section.reviews .reviews-section p {
 }
 
 /*iformation-css-end*/
-/*Start destination css*/
+/*Start-destination-css*/
 .destination__content {
   padding: 0 0 50px 0;
   background-color: #fff;
@@ -425,7 +425,20 @@ section.reviews .reviews-section p {
   box-shadow: none;
 }
 
-/*End destination css*/
+/*End-destination-css*/
+/*Start-about-css*/
+.mission {
+  background: #fff;
+  padding: 50px 0;
+}
+.mission__content p {
+  color: #0d1e1e;
+  font-size: 18px;
+  line-height: 25px;
+  font-family: "Barlow";
+}
+
+/*End-about-css*/
 /*contact-css-start*/
 section.contactbanner {
   padding: 150px 0 50px 0;

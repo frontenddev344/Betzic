@@ -352,7 +352,7 @@ section.reviews {
 /*iformation-css-end*/
 
 
-/*Start destination css*/
+/*Start-destination-css*/
 .destination__content {
     padding: 0 0 50px 0;
     background-color: $clr-white;
@@ -431,7 +431,23 @@ section.reviews {
     }
 }
 
-/*End destination css*/
+/*End-destination-css*/
+
+/*Start-about-css*/
+.mission {
+    background:$clr-white;
+    padding: 50px 0;
+    &__content {
+        p{
+            color: $clr-darkgreen;
+            font-size: 18px;
+            line-height: 25px;
+            font-family: "Barlow";
+        }
+    }
+}
+
+/*End-about-css*/
 
 
 /*contact-css-start*/
