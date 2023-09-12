@@ -474,6 +474,10 @@ p.privacy__infos {
         font-size: 22px;
         margin: 0 20px;
         text-decoration: none;
+        &:hover{
+                color: #cd8c2f;
+                background: #fff;
+        }
     }
 }
 
