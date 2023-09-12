@@ -347,6 +347,10 @@ section.reviews .reviews-section p {
   transform: translate(-50%, -50%);
 }
 
+.casino__content1 {
+  padding: 10px 0;
+}
+
 .casino__content p {
   font-size: 18px;
   line-height: 25px;
