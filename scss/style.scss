@@ -153,12 +153,15 @@ header.site-header {
 /*banner-css-end*/
 
 /*explore-css-start*/
-
+section.explore {
+    background: $clr-white;
+}
 .explore__text {
     padding: 50px 0;
 
     p {
         margin-top: 20px;
+        color: $clr-darkgreen;
     }
 }
 

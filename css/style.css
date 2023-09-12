@@ -183,11 +183,16 @@ header.site-header {
 
 /*banner-css-end*/
 /*explore-css-start*/
+section.explore {
+  background: #fff;
+}
+
 .explore__text {
   padding: 50px 0;
 }
 .explore__text p {
   margin-top: 20px;
+  color: #0d1e1e;
 }
 
 .explore__content {
