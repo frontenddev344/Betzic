@@ -202,7 +202,6 @@ section.explore {
 section.popular {
     background: $clr-white;
     padding: 30px 0;
-    height: 450px;
 }
 
 /*popular-css-end*/
@@ -271,6 +270,10 @@ section.accommodation {
 
 .accommodation {
     &__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
         h4 {
             color: $clr-mustard;
             font-size: 27px;
@@ -329,7 +332,7 @@ section.reviews {
 
 /*review-css-end*/
 
-/*iformation-css-start*/
+/*information-css-start*/
 .casino-information.part {
     padding: 50px 0;
     background-color: $clr-white;

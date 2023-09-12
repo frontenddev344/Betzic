@@ -237,7 +237,6 @@ section.explore {
 section.popular {
   background: #fff;
   padding: 30px 0;
-  height: 450px;
 }
 
 /*popular-css-end*/
@@ -294,6 +293,12 @@ section.accommodation .accommodation__btn a:hover {
   max-width: 500px;
 }
 
+.accommodation__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
 .accommodation__text h4 {
   color: #cd8c2f;
   font-size: 27px;
@@ -342,7 +347,7 @@ section.reviews .reviews-section p {
 }
 
 /*review-css-end*/
-/*iformation-css-start*/
+/*information-css-start*/
 .casino-information.part {
   padding: 50px 0;
   background-color: #fff;
