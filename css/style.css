@@ -51,6 +51,20 @@ h3 {
   }
 }
 
+h4 {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 600;
+  color: #cd8c2f;
+}
+
+h5 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #0d1e1e;
+  font-family: "Karla";
+}
+
 * {
   box-sizing: border-box;
 }
@@ -347,10 +361,6 @@ section.reviews .reviews-section p {
   transform: translate(-50%, -50%);
 }
 
-.casino__content1 {
-  padding: 10px 0;
-}
-
 .casino__content p {
   font-size: 18px;
   line-height: 25px;
@@ -487,6 +497,36 @@ section.choose .choose__card img:hover {
 }
 
 /*End-about-css*/
+/*Start-outdoor-css*/
+section.outdoor__section {
+  background: #fff;
+}
+section.outdoor__section .outdoor__main p {
+  color: #0d1e1e;
+}
+section.outdoor__section .outdoor__details {
+  padding: 20px 0;
+}
+section.outdoor__section span.outdoor__head {
+  color: #cd8c2f;
+  font-weight: 700;
+}
+section.outdoor__section .outdoor-btn {
+  padding: 20px 0;
+}
+section.outdoor__section .outdoor-btn a.outdoor-btn {
+  border: 1px solid;
+  padding: 10px 20px;
+  background: #cd8c2f;
+  color: #fff;
+  border-radius: 5px;
+}
+section.outdoor__section .outdoor-btn a.outdoor-btn:hover {
+  color: #cd8c2f;
+  background: #fff;
+}
+
+/*End-outdoor-css*/
 /*contact-css-start*/
 section.contactbanner {
   padding: 150px 0 50px 0;

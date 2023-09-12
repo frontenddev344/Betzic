@@ -348,9 +348,6 @@ section.reviews {
         transform: translate(-50%, -50%);
     }
 }
-.casino__content1 {
-    padding: 10px 0;
-}
 .casino__content p {
     font-size: 18px;
     line-height: 25px;
@@ -506,6 +503,42 @@ section.choose {
 }
 
 /*End-about-css*/
+
+/*Start-outdoor-css*/
+section.outdoor__section {
+    background:$clr-white;
+    .outdoor{
+        &__main{
+            p{
+                color: $clr-darkgreen;
+            }
+        }
+        &__details{
+            padding: 20px 0;
+          
+        }
+    }
+    span.outdoor__head {
+        color: $clr-mustard;
+        font-weight: 700;
+    }
+    .outdoor-btn{
+        padding: 20px 0;
+        a.outdoor-btn {
+            border: 1px solid;
+            padding: 10px 20px;
+            background: $clr-mustard;
+            color: $clr-white;
+            border-radius: 5px;
+            &:hover{
+                color: $clr-mustard;
+                background: $clr-white;
+            }
+        }
+    }
+    
+}
+/*End-outdoor-css*/
 
 
 /*contact-css-start*/
