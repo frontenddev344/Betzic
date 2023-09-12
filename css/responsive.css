@@ -210,7 +210,7 @@ section.accommodation .accommodation__picture img {
 }
 
 section.accommodation .accommodation__btn {
-  align-items: start;
+  align-items: start !important;
 }
 
 .accommodation__text {
@@ -223,7 +223,7 @@ section.accommodation .accommodation__btn {
   }
   .footer {
     text-align: center;
-    padding: 0;
+    padding: 30px 0;
   }
   .footer-content img {
     margin-bottom: 0;
@@ -231,7 +231,13 @@ section.accommodation .accommodation__btn {
   .footer__lists {
     padding: 0;
   }
-  .explore__text {
+  section.explore {
+    padding: 50px 0 0 0;
+  }
+  section.explore .explore__text {
+    padding: 0;
+  }
+  section.popular {
     padding: 0;
   }
 }
