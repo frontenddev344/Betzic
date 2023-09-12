@@ -323,6 +323,109 @@ section.reviews .reviews-section p {
 }
 
 /*review-css-end*/
+/*iformation-css-start*/
+.casino-information.part {
+  padding: 50px 0;
+  background-color: #fff;
+}
+
+.gambler__bannertext {
+  z-index: 998;
+}
+.gambler__bannertext h1 {
+  font-size: 60px;
+  color: #fff;
+  font-family: "Barlow";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.casino__content p {
+  font-size: 18px;
+  line-height: 25px;
+  font-family: "Barlow";
+  color: #0d1e1e;
+}
+
+/*iformation-css-end*/
+/*Start destination css*/
+.destination__content {
+  padding: 0 0 50px 0;
+  background-color: #fff;
+}
+
+.destination__content .row.igralnice {
+  margin-bottom: 15px;
+  box-shadow: 0px 0px 3px #bcbcbc;
+  padding: 17px;
+  background: rgba(73, 73, 73, 0.0588235294);
+}
+
+.slovernia__pictures.overlay {
+  height: 200px;
+  margin: 20px 20px;
+}
+.slovernia__pictures.overlay img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+  max-width: 300px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.8);
+}
+
+.destination-card.page {
+  max-width: 75%;
+  margin: 0 auto;
+}
+
+.destination-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding-left: 25px;
+}
+.destination-card h3 {
+  font-size: 21px;
+  font-family: "Barlow";
+  line-height: 30px;
+  color: #cd8c2f;
+  text-align: initial;
+}
+.destination-card p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #0d1e1e;
+  line-height: 26px;
+  text-align: justify;
+  font-family: "Barlow";
+}
+
+.destination__content .row.igralnice a.btn.btn-content {
+  box-shadow: #112d2a 8px 7px;
+  text-transform: capitalize;
+  font-size: 18px;
+  color: #fff;
+  background-color: #cd8c2f;
+  border: none;
+  border-radius: 6px;
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  padding: 12px 24px;
+  box-shadow: #112d2a 8px 7px;
+  display: inline-block;
+}
+.destination__content .row.igralnice a.btn.btn-content:hover {
+  color: #fff;
+  background-color: #cd8c2f;
+  box-shadow: none;
+}
+
+/*End destination css*/
 /*contact-css-start*/
 section.contactbanner {
   padding: 150px 0 50px 0;

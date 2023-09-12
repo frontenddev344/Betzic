@@ -203,20 +203,48 @@
     height: auto;
     object-fit: cover;
   }
+  section.accommodation .accommodation__picture img {
+    max-width: 100%;
+    width: 100%;
+  }
+  section.accommodation .accommodation__btn {
+    align-items: start !important;
+  }
+  .accommodation__text {
+    padding: 30px 0;
+  }
+  .linked__main.right {
+    padding: 50px 0 20px 0;
+  }
+  .linked__main.left {
+    padding: 50px 0 20px 0;
+  }
+  .contact-us {
+    align-items: start;
+  }
+  .slovernia__pictures.overlay img {
+    max-width: 100%;
+    height: 100%;
+  }
+  .destination-card.page {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 30px 0 0 0;
+  }
+  .north__banner h1 {
+    font-size: 45px;
+    white-space: nowrap;
+  }
+  .destination-card {
+    padding-left: 0;
+  }
+  .link__content {
+    padding: 50px 0;
+  }
+  .link__main {
+    padding-left: 0;
+  }
 }
-section.accommodation .accommodation__picture img {
-  max-width: 100%;
-  width: 100%;
-}
-
-section.accommodation .accommodation__btn {
-  align-items: start !important;
-}
-
-.accommodation__text {
-  padding: 30px 0;
-}
-
 @media screen and (max-width: 575px) {
   .site-nav {
     width: 100%;
@@ -250,6 +278,10 @@ section.accommodation .accommodation__btn {
   }
   .contact__cookies h2 {
     font-size: 28px !important;
+  }
+  .destination-card h3 {
+    font-size: 16px;
+    line-height: 25px;
   }
 }
 
