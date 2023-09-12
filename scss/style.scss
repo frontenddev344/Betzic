@@ -156,6 +156,7 @@ header.site-header {
 section.explore {
     background: $clr-white;
 }
+
 .explore__text {
     padding: 50px 0;
 
@@ -174,6 +175,7 @@ section.explore {
 
         p {
             max-width: 80%;
+            color: $clr-darkgreen;
         }
     }
 }
@@ -194,6 +196,14 @@ section.explore {
 
 /*explore-css-end*/
 
+/*popular-css-start*/
+section.popular {
+    background: $clr-white;
+    padding: 30px 0;
+}
+
+/*popular-css-end*/
+
 /*accommodation-css-start*/
 section.accommodation {
     padding: 50px 0 0 0;
@@ -206,10 +216,16 @@ section.accommodation {
         }
     }
 
+    p.accomodationtext {
+        color: $clr-white;
+    }
+
     .accommodation__btn {
         display: flex;
-        align-items: end;
         justify-content: center;
+        height: 100%;
+        flex-direction: column;
+        align-items: center !important;
     }
 
     .accommodation__btn a {
@@ -237,19 +253,29 @@ section.accommodation {
 /*accommodation-css-end*/
 
 /*reviews-css-start*/
-h2.reviews__title {
-    text-align: center;
-    padding: 50px 0;
+section.reviews {
+    background: $clr-white;
+
+    h2.reviews__title {
+        text-align: center;
+        padding: 50px 0;
+    }
+
+    .reviews-section {
+        text-align: center;
+        max-width: 935px;
+        margin: 0 auto;
+
+        p {
+            color: $clr-darkgreen;
+        }
+    }
 }
 
-.reviews-section {
-    text-align: center;
-    max-width: 935px;
-    margin: 0 auto;
-}
+
 
 .reviews .owl-theme .owl-nav [class*='owl-'] {
-    color: #FFF;
+    color: $clr-white;
     font-size: 14px;
     margin: 5px;
     padding: 6px 6px;
