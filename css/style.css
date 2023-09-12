@@ -475,6 +475,10 @@ section.choose h3.choose__title {
 }
 section.choose .choose__card img {
   max-width: 70px;
+  transition: 0.3s;
+}
+section.choose .choose__card img:hover {
+  transform: translateY(-10px);
 }
 
 /*End-about-css*/
