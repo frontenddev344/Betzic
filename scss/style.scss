@@ -164,6 +164,7 @@ section.explore {
         margin-top: 20px;
         color: $clr-darkgreen;
         line-height: 27px;
+        font-family: 'Barlow';
     }
 }
 
@@ -175,9 +176,10 @@ section.explore {
         height: 100%;
 
         p {
-            max-width: 80%;
+            max-width: 75%;
             color: $clr-darkgreen;
             line-height: 29px;
+            font-family: 'Barlow';
         }
     }
 }
@@ -283,6 +285,7 @@ section.accommodation {
         p {
             color: $clr-darkgreen;
             line-height: 29px;
+            font-family: 'Barlow';
         }
     }
 }
@@ -313,6 +316,7 @@ section.reviews {
 
         p {
             color: $clr-darkgreen;
+            font-family: 'Barlow';
         }
     }
 }
@@ -510,19 +514,39 @@ section.choose {
 /*End-about-css*/
 
 /*Start-outdoor-css*/
+.row.space {
+    margin-bottom: 50px;
+}
+
 section.outdoor__section {
     background: $clr-white;
+    padding: 50px 0;
 
     .outdoor {
         &__main {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100%;
+
             p {
                 color: $clr-darkgreen;
+                font-family: 'Barlow';
             }
         }
 
         &__details {
             padding: 20px 0;
 
+        }
+
+        &__picture {
+            height: 100%;
+
+            img {
+                height: 600px;
+                object-fit: cover;
+            }
         }
     }
 
@@ -548,6 +572,13 @@ section.outdoor__section {
         }
     }
 
+}
+
+.outdoor__main.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
 }
 
 /*End-outdoor-css*/
