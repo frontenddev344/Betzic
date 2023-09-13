@@ -64,6 +64,14 @@
     section.accommodation .accommodation__btn {
         align-items: center;
     }
+
+    section.outdoor__section {
+        .outdoor__picture {
+            img {
+                height: 100%;
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 991px) {
@@ -238,7 +246,6 @@
     }
 
     .accommodation__text h4 {
-        color: #cd8c2f;
         font-size: 20px;
     }
 }
@@ -253,6 +260,14 @@
             width: 100%;
             max-width: 100%;
         }
+    }
+
+    section.outdoor__section {
+        padding: 0 0 20px 0;
+    }
+
+    .outdoor__main {
+        margin: 20px 0;
     }
 
     section.accommodation .accommodation__picture img {
@@ -318,6 +333,10 @@
 
     .link__main {
         padding-left: 0;
+    }
+
+    .contact__banner img {
+        max-width: 50%;
     }
 }
 
