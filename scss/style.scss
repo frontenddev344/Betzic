@@ -239,11 +239,13 @@ section.accommodation {
         display: inline-block;
         font-size: 1.6rem;
         border: 2px solid $clr-mustard;
-        padding: 15px 30px;
         text-transform: capitalize;
-        color: $clr-darkgreen;
         transition: all 0.3s ease-in-out;
-        border-radius: 10px;
+        border: 1px solid;
+        padding: 10px 20px;
+        background: transparent;
+        color: $clr-mustard;
+        border-radius: 5px;
 
         &:hover {
             color: $clr-white;
@@ -562,15 +564,20 @@ section.outdoor__section {
         padding: 20px 0;
 
         a.outdoor-btn {
-            border: 1px solid;
-            padding: 10px 20px;
-            background: $clr-mustard;
-            color: $clr-white;
-            border-radius: 5px;
+        display: inline-block;
+        font-size: 1.6rem;
+        border: 2px solid $clr-mustard;
+        text-transform: capitalize;
+        transition: all 0.3s ease-in-out;
+        border: 1px solid;
+        padding: 10px 20px;
+        background: transparent;
+        color: $clr-mustard;
+        border-radius: 5px;
 
             &:hover {
-                color: $clr-mustard;
-                background: $clr-white;
+                color: $clr-white;
+                background: $clr-mustard;
             }
         }
     }

@@ -279,11 +279,13 @@ section.accommodation .accommodation__btn a {
   display: inline-block;
   font-size: 1.6rem;
   border: 2px solid #cd8c2f;
-  padding: 15px 30px;
   text-transform: capitalize;
-  color: #0d1e1e;
   transition: all 0.3s ease-in-out;
-  border-radius: 10px;
+  border: 1px solid;
+  padding: 10px 20px;
+  background: transparent;
+  color: #cd8c2f;
+  border-radius: 5px;
 }
 section.accommodation .accommodation__btn a:hover {
   color: #fff;
@@ -558,15 +560,20 @@ section.outdoor__section .outdoor-btn {
   padding: 20px 0;
 }
 section.outdoor__section .outdoor-btn a.outdoor-btn {
+  display: inline-block;
+  font-size: 1.6rem;
+  border: 2px solid #cd8c2f;
+  text-transform: capitalize;
+  transition: all 0.3s ease-in-out;
   border: 1px solid;
   padding: 10px 20px;
-  background: #cd8c2f;
-  color: #fff;
+  background: transparent;
+  color: #cd8c2f;
   border-radius: 5px;
 }
 section.outdoor__section .outdoor-btn a.outdoor-btn:hover {
-  color: #cd8c2f;
-  background: #fff;
+  color: #fff;
+  background: #cd8c2f;
 }
 
 .outdoor__main.center {
