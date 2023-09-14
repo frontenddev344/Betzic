@@ -256,7 +256,7 @@ section.popular {
 /*popular-css-end*/
 /*accommodation-css-start*/
 section.accommodation {
-  padding: 50px 0 10px 0;
+  padding: 15px 0 1px 0;
   background: #fff;
 }
 section.accommodation .accommodation__picture img {
