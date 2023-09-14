@@ -266,8 +266,10 @@ section.accommodation {
     padding: 50px 0 0 0;
 
     img {
-        max-width: 500px;
-    }
+    max-width: 25%;
+    height: 260px;
+    object-fit: contain;
+}
 }
 
 .accommodation {
@@ -546,6 +548,7 @@ section.outdoor__section {
             img {
                 height: 600px;
                 object-fit: cover;
+                border-radius: 10px;
             }
         }
     }

@@ -304,7 +304,9 @@ section.accommodation .accommodation__btn a:hover {
   padding: 50px 0 0 0;
 }
 .banner__picture.accommodation img {
-  max-width: 500px;
+  max-width: 25%;
+  height: 260px;
+  object-fit: contain;
 }
 
 .accommodation__text {
@@ -546,6 +548,7 @@ section.outdoor__section .outdoor__picture {
 section.outdoor__section .outdoor__picture img {
   height: 600px;
   object-fit: cover;
+  border-radius: 10px;
 }
 section.outdoor__section span.outdoor__head {
   color: #cd8c2f;
