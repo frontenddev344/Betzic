@@ -268,10 +268,10 @@ section.accommodation {
     padding: 50px 0 0 0;
 
     img {
-    max-width: 25%;
-    height: 260px;
-    object-fit: contain;
-}
+        max-width: 25%;
+        height: 260px;
+        object-fit: contain;
+    }
 }
 
 .accommodation {
@@ -564,16 +564,16 @@ section.outdoor__section {
         padding: 20px 0;
 
         a.outdoor-btn {
-        display: inline-block;
-        font-size: 1.6rem;
-        border: 2px solid $clr-mustard;
-        text-transform: capitalize;
-        transition: all 0.3s ease-in-out;
-        border: 1px solid;
-        padding: 10px 20px;
-        background: transparent;
-        color: $clr-mustard;
-        border-radius: 5px;
+            display: inline-block;
+            font-size: 1.6rem;
+            border: 2px solid $clr-mustard;
+            text-transform: capitalize;
+            transition: all 0.3s ease-in-out;
+            border: 1px solid;
+            padding: 10px 20px;
+            background: transparent;
+            color: $clr-mustard;
+            border-radius: 5px;
 
             &:hover {
                 color: $clr-white;
