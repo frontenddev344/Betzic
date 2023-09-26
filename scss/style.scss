@@ -182,6 +182,35 @@ section.explore {
             font-family: 'Barlow';
         }
     }
+
+    &__card {
+        padding: 20px 0;
+        box-shadow: 0px 0px 5px 1px #b9b7b7;
+        height: 100%;
+
+        p {
+            color: $clr-black;
+            font-size: 18px;
+
+        }
+    }
+
+    &__inner {
+        margin: 0 20px;
+        height: 100%;
+    }
+
+    .explorecard__picture img {
+        max-width: 550px;
+        height: 350px;
+        object-fit: cover;
+    }
+
+    &__body {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .explore__picture {
@@ -506,6 +535,7 @@ section.choose {
 
     .choose__card {
         height: 100%;
+
         img {
             max-width: 70px;
             transition: .3s;
@@ -516,7 +546,8 @@ section.choose {
         }
     }
 }
-.choose__main{
+
+.choose__main {
     height: 100%;
     padding-bottom: 20px;
 }
@@ -775,10 +806,12 @@ p.privacy__infos {
         font-size: 18px;
         line-height: 25px;
     }
-    a{
+
+    a {
         font-size: 16px;
         color: $clr-white;
     }
+
     h4 {
         color: $clr-mustard;
         font-size: 25px;

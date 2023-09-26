@@ -234,6 +234,29 @@ section.explore {
   line-height: 29px;
   font-family: "Barlow";
 }
+.explore__card {
+  padding: 20px 0;
+  box-shadow: 0px 0px 5px 1px #b9b7b7;
+  height: 100%;
+}
+.explore__card p {
+  color: #0C0B0B;
+  font-size: 18px;
+}
+.explore__inner {
+  margin: 0 20px;
+  height: 100%;
+}
+.explore .explorecard__picture img {
+  max-width: 550px;
+  height: 350px;
+  object-fit: cover;
+}
+.explore__body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
 
 .explore__picture img {
   max-width: 550px;
