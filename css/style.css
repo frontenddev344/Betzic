@@ -748,6 +748,15 @@ p.privacy__infos {
   font-size: 18px;
   line-height: 25px;
 }
+.footer__about a {
+  font-size: 16px;
+  color: #fff;
+}
+.footer__about h4 {
+  color: #cd8c2f;
+  font-size: 25px;
+  line-height: 30px;
+}
 
 .footer__lists {
   padding: 20px 0;
