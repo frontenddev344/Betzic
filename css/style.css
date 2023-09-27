@@ -568,7 +568,7 @@ section.aboutform-us.p_8 {
 .form-group label {
   display: inline-block;
   padding-bottom: 5px;
-  color: #000000;
+  color: #0C0B0B;
   transition: all 0.2s linear;
   text-transform: capitalize;
   font-family: "Karla";
@@ -591,11 +591,11 @@ textarea.input-control {
 
 .form-group .submit-btn {
   background: transparent;
-  border: 1px solid #fff;
+  border: 1px solid #0C0B0B;
   transition: all 0.2s linear;
   display: inline-block;
   padding: 0.8rem 4rem;
-  color: #fff;
+  color: #0C0B0B;
   text-transform: capitalize;
 }
 
