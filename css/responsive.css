@@ -197,6 +197,9 @@
   .col-lg-4.col-md-6.col-sm-12.margin {
     margin-top: 10px;
   }
+  .footer .col-md-6:nth-child(3) {
+    order: 4;
+  }
 }
 @media screen and (max-width: 786px) {
   section.banner {
@@ -316,6 +319,12 @@
   }
   section.popular {
     padding: 0;
+  }
+  .footer .col-md-6:nth-child(3) {
+    order: 0;
+  }
+  .scrl-icons {
+    margin-bottom: 20px;
   }
 }
 @media screen and (max-width: 425px) {
