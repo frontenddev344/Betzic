@@ -75,13 +75,13 @@ header.site-header {
     right: 0;
 }
 
-// header.site-header.sticky {
-//     background: #ffffff;
-//     box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
-//     animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
-//     padding: 10px 0;
-//     position: fixed;
-// }
+header.site-header.sticky {
+    background: $clr-darkgreen;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
+    animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+    padding: 10px 0;
+    position: fixed;
+}
 
 .site-header .site-nav ul li a.active {
     color: $clr-mustard;
@@ -402,14 +402,14 @@ section.reviews {
         color: $clr-darkgreen;
     }
 
-    h3 {
-        color: $clr-overlay;
-    }
+
 }
+
 h3.casino__title {
     color: $clr-mustard;
     margin-bottom: 20px;
 }
+
 /*iformation-css-end*/
 
 
@@ -885,7 +885,7 @@ p.privacy__infos {
 
     h4 {
         color: $clr-mustard;
-        font-size: 25px;
+        font-size: 18px;
         line-height: 30px;
     }
 }
