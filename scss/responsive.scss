@@ -255,8 +255,13 @@
     .col-lg-4.col-md-6.col-sm-12.margin {
         margin-top: 10px;
     }
+
     .footer .col-md-6:nth-child(3) {
         order: 4;
+    }
+
+    .footer__lists {
+        padding: 0;
     }
 }
 
@@ -418,12 +423,14 @@
     section.popular {
         padding: 0;
     }
-    .footer .col-md-6:nth-child(3){
-        order:0;
+
+    .footer .col-md-6:nth-child(3) {
+        order: 0;
     }
-   .scrl-icons{
-    margin-bottom: 20px;
-   }
+
+    .scrl-icons {
+        margin-bottom: 20px;
+    }
 }
 
 @media screen and (max-width:425px) {
@@ -433,6 +440,18 @@
 
     .explore__text {
         padding: 0;
+
+        p {
+            margin-top: 0;
+        }
+    }
+
+    .casino-information.part {
+        padding: 14px 0;
+    }
+
+    .mission {
+        padding: 14px 0;
     }
 
     .contact__cookies {

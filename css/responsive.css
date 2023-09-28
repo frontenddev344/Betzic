@@ -200,6 +200,9 @@
   .footer .col-md-6:nth-child(3) {
     order: 4;
   }
+  .footer__lists {
+    padding: 0;
+  }
 }
 @media screen and (max-width: 786px) {
   section.banner {
@@ -333,6 +336,15 @@
   }
   .explore__text {
     padding: 0;
+  }
+  .explore__text p {
+    margin-top: 0;
+  }
+  .casino-information.part {
+    padding: 14px 0;
+  }
+  .mission {
+    padding: 14px 0;
   }
   .contact__cookies h2 {
     font-size: 28px !important;
