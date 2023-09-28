@@ -183,6 +183,17 @@
   .contact__banner img {
     max-width: 100%;
   }
+  .slovernia__pictures.overlay {
+    margin: 0;
+  }
+  .destination__content .row.igralnice a.btn.btn-content {
+    padding: 12px 21px;
+    font-size: 14px;
+  }
+  .destination-card p {
+    font-size: 15px;
+    line-height: 18px;
+  }
 }
 @media screen and (max-width: 786px) {
   section.banner {

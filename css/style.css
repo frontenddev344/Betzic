@@ -582,6 +582,9 @@ section.outdoor__section .outdoor__main p {
 section.outdoor__section .outdoor__details {
   padding: 20px 0;
 }
+section.outdoor__section .outdoor__details h4 {
+  font-size: 22px;
+}
 section.outdoor__section .outdoor__picture {
   height: 100%;
 }
