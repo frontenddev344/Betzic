@@ -35,7 +35,7 @@ h2 {
   font-size: 36px;
   line-height: 36px;
   font-weight: 600;
-  color: #cd8c2f;
+  color: rgba(13, 30, 30, 0.9294117647);
 }
 
 h3 {
@@ -377,7 +377,7 @@ section.reviews .reviews-section p {
   font-family: "Barlow";
 }
 section.reviews .reviews-section h3 {
-  color: #0d1e1e;
+  color: #cd8c2f;
 }
 
 .reviews .owl-theme .owl-nav [class*=owl-] {
@@ -417,6 +417,9 @@ section.reviews .reviews-section h3 {
   line-height: 25px;
   font-family: "Barlow";
   color: #0d1e1e;
+}
+.casino__content h3 {
+  color: rgba(13, 30, 30, 0.9294117647);
 }
 
 /*iformation-css-end*/
@@ -667,11 +670,17 @@ section.contactbanner {
   font-family: "Barlow";
   color: #0d1e1e;
 }
+.contact__cookies h2 {
+  color: #cd8c2f;
+}
 
 .contact__text p {
   font-size: 18px;
   line-height: 28px;
   color: #0d1e1e;
+}
+.contact__text h2 {
+  color: #cd8c2f;
 }
 
 /*contact-css-end*/

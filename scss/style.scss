@@ -351,8 +351,9 @@ section.reviews {
             color: $clr-darkgreen;
             font-family: 'Barlow';
         }
-        h3{
-            color: $clr-darkgreen;
+
+        h3 {
+            color: $clr-mustard;
         }
     }
 }
@@ -393,11 +394,17 @@ section.reviews {
     }
 }
 
-.casino__content p {
-    font-size: 18px;
-    line-height: 25px;
-    font-family: 'Barlow';
-    color: $clr-darkgreen;
+.casino__content {
+    p {
+        font-size: 18px;
+        line-height: 25px;
+        font-family: 'Barlow';
+        color: $clr-darkgreen;
+    }
+
+    h3 {
+        color: $clr-overlay;
+    }
 }
 
 /*iformation-css-end*/
@@ -736,6 +743,10 @@ section.contactbanner {
         font-family: 'Barlow';
         color: $clr-darkgreen;
     }
+
+    h2 {
+        color: $clr-mustard;
+    }
 }
 
 .contact__text {
@@ -743,6 +754,10 @@ section.contactbanner {
         font-size: 18px;
         line-height: 28px;
         color: $clr-darkgreen;
+    }
+
+    h2 {
+        color: $clr-mustard;
     }
 }
 
