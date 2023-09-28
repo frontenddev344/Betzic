@@ -422,6 +422,11 @@ section.reviews .reviews-section h3 {
   color: rgba(13, 30, 30, 0.9294117647);
 }
 
+h3.casino__title {
+  color: #cd8c2f;
+  margin-bottom: 20px;
+}
+
 /*iformation-css-end*/
 /*Start-destination-css*/
 .destination__content {
