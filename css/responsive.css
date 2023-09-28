@@ -194,6 +194,9 @@
     font-size: 15px;
     line-height: 18px;
   }
+  .col-lg-4.col-md-6.col-sm-12.margin {
+    margin-top: 10px;
+  }
 }
 @media screen and (max-width: 786px) {
   section.banner {
@@ -281,6 +284,15 @@
   .link__main {
     padding-left: 0;
   }
+  .explore .explorecard__picture img {
+    max-width: 100%;
+  }
+  .col-lg-4.col-md-6.col-sm-12.margin {
+    margin-top: 0;
+  }
+  .explore__card.margin {
+    margin-bottom: 10px;
+  }
 }
 @media screen and (max-width: 575px) {
   .site-nav {
@@ -319,6 +331,9 @@
   .destination-card h3 {
     font-size: 16px;
     line-height: 25px;
+  }
+  h2.margin {
+    margin: 22px 0;
   }
 }
 
