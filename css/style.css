@@ -840,14 +840,21 @@ p.privacy__infos {
 
 .cookie-alert .btn {
   color: #fff;
-  background-color: #900a2d;
+  background-color: #cd8c2f;
   border-color: #ffffff;
+  padding: 10px 25px;
+  font-size: 15px;
 }
 
 .cookie-alert.show {
   opacity: 1;
   transform: translateY(0%);
   transition-delay: 1000ms;
+}
+
+.card-body.p-5 p {
+  color: #010505;
+  font-size: 18px;
 }
 
 /*cookie end*/
